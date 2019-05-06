@@ -1,0 +1,59 @@
+/* Add a black background color to the top navigation */
+@font-face
+{
+	font-family: Phenomena-Regular;
+	src: url('../fonts/phenomena/Phenomena-Regular.otf');
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 70px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family:Phenomena-Regular;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+.logoHeader{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:15%;
+}
+hr{
+	width:85%;
+	border-color:#f2f2f2;
+	size:30px;
+	height:10%;
+}
+.contactHeader{
+	background-color:black;
+	color:white;
+	height:85%;
+	text-align:center;
+	font-family:Phenomena-Regular;
+	padding:10px;
+}
+p{
+	margin:0;
+	text-align:left;
+}
+
