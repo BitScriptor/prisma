@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from './components/pages/header/header';
-import SlideImg from './components/pages/slideImg/slideImg';
+import SlideImg from './components/generals/slideImg/slideImg';
 import Index from './/components/pages/index/index';
 
 class App extends Component {
@@ -12,7 +12,6 @@ class App extends Component {
       <Router>
         <div>
           <Header/>
-		  <SlideImg/>
           <Route path="" exact component={Index} />
           <Route path="/about" />
           <Route path="/users" />
