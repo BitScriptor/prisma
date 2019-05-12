@@ -7,11 +7,17 @@ class Header extends React.Component {
 		return (
 			<header>
 				<div class="contactHeader">
-						<a href="#nuestroClientes">W (33) 11 36 13 74</a>
-						<a href="#servicios">T (33) 38 33 07 03 / (33) 36 56 01 01</a>
+					<div class="contactHeaderLeft">
+						<p class="topData">W (33) 11 36 13 74</p>
+						<p class="topData">T (33) 38 33 07 03 / (33) 36 56 01 01</p>
+					</div>
+					<div class="contactHeaderRight">
+						<a href="www.facebook.com"><p class="topData">Facebook</p></a>
+						<p class="topData">C ventas@prismaneon.com</p>
+					</div>
 				</div>
 				<div>
-					<img class="logoHeader" src={require("../images/logoPrisma.png")}/>
+					<a href="/"><img class="logoHeader" src={require("../images/logoPrisma.png")}/></a>
 				</div>
 				<nav className="text-center">
 					<hr/>
@@ -23,9 +29,6 @@ class Header extends React.Component {
 					</div> 
 					<hr/>
 				</nav>
-				<div>
-					<Link to="/">Home</Link>
-				</div>
 			</header>
 		);
 	}
