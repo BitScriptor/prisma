@@ -12,7 +12,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="container">
-        <Slider imgList={imgList} height={'400px'}/>
+        <Slider imgList={imgList} height={'25em'}/>
         <ServicesList/>
       </div>
     );
