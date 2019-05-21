@@ -5,19 +5,22 @@
 	src: url('../fonts/phenomena/Phenomena-Regular.otf');
 }
 .topnav {
-  background-color: white;
-  overflow: hidden;
+	border-top: solid gray 1px;
+	border-bottom: solid gray 1px;
+	margin: 0 0 1.9em 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
   color: black;
   text-align: center;
-  padding: 14px 16px;
-  margin: 70px;
+	padding: .2em .6em;
+	display: inline-block;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.7em;
   font-family:Phenomena-Regular;
 }
 
@@ -36,7 +39,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:15%;
+	width:16em;
 }
 hr{
 	width:85%;
@@ -45,25 +48,19 @@ hr{
 	height:10%;
 }
 .contactHeader{
-	background-color:black;
+	background-color:#292927;
 	color:white;
 	height:85%;
 	text-align:center;
 	font-family:Phenomena-Regular;
 	padding:10px;
 }
-.contactHeaderLeft{
-	display: inline-block;
-	margin-right: 800px;
-}
-.contactHeaderRight{
-	display: inline-block;
+
+.container-header-info {
+	font-size: 1.2em;
 }
 
 .topData{
-	margin:0;
-	display: inline-block;
-	margin-right:100px;
-	font-size:18px;
+
 }
 
