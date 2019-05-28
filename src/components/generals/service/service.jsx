@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
 import Icon from '@material-ui/core/Icon';
+import { Link } from "react-router-dom";
 import { Brightness1 } from '@material-ui/icons';
 
 import Slideshow from './../slideImg/slideImg';
@@ -24,13 +25,13 @@ class Service extends React.Component {
             <div className="subtitle">
               {this.props.info.subtitle}
             </div>
-            <div className="List">
+            <div className="List mt-2">
               <div className="listService">
                 {this.props.info.serviceList.map((value, index) => {
                   return (
-                    <div key={index}>
+                    <Link to={`/services/${value}`} key={index}>
                       <Icon className="icon"><Brightness1 style={{'color': this.props.titleColor}}/></Icon> {value}
-                    </div>
+                    </Link>
                   );
                 })}
               </div>

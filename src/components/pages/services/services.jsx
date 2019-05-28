@@ -2,12 +2,13 @@ import React from 'react';
 import ServicesDetails from './../../generals/servicesDetails/ServicesDetails';
 
 const info = [{
+  link: 'UNA VISTA',
   title: 'titulo',
   description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.',
   gallery: [
     {
-        src: "./static/img/img2.jpg",
-        thumbnail: "./static/img/img2.jpg",
+        src: "/static/img/img2.jpg",
+        thumbnail: "/static/img/img2.jpg",
         thumbnailWidth: 240,
         thumbnailHeight: 320,
         caption: "8H (gratisography.com)",
@@ -76,12 +77,13 @@ class Services extends React.Component {
 
   constructor(props) {
     super(props);
+    console.log(this.props.match.params.service);
   }
 
   render() {
     return (
       <div className="container">
-        <ServicesDetails data={info.filter(item => item.title === this.props.match.params.service )[0]}/>
+        <ServicesDetails data={info.filter(item => item.link === this.props.match.params.service )[0]}/>
       </div>
     );
   }
