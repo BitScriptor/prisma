@@ -1,0 +1,8 @@
+.text-title-section {
+  font-size: 3em;
+  text-transform: uppercase;
+  border-bottom: solid 1px;
+  max-width: 10em;
+  padding-bottom: .4em;
+  margin: auto;
+}

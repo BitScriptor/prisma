@@ -16,6 +16,7 @@
 }
 
 .container-info {
+  padding: .8em 0;
   background-color: #292927;
 }
 
@@ -23,7 +24,8 @@
   padding: 0 1em;
 }
 
-.listService > div {
+.listService > a {
+  text-decoration:none; 
   width: 50%;
   display: inline-block;
   color: white;
@@ -31,6 +33,10 @@
   word-wrap: break-word;
   padding-left: 20px;
   position: relative;
+}
+
+.listService > a:link {
+  text-decoration:none;
 }
 
 .listService .icon svg {

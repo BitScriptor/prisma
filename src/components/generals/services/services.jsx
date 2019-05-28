@@ -150,7 +150,7 @@ const info_velaria = {
 const ServicesList = () => {
 	return (
 		<div>
-      <div className="text-center my-4">
+      <div className="text-center my-4 text-title-section">
         nuestros servicios
       </div>
 
