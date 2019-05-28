@@ -1,5 +1,7 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
+import Icon from '@material-ui/core/Icon';
+import { Brightness1 } from '@material-ui/icons';
 
 import Slideshow from './../slideImg/slideImg';
 import './service.css';
@@ -23,7 +25,15 @@ class Service extends React.Component {
               {this.props.info.subtitle}
             </div>
             <div className="List">
-
+              <div className="listService">
+                {this.props.info.serviceList.map((value, index) => {
+                  return (
+                    <div key={index}>
+                      <Icon className="icon"><Brightness1 style={{'color': this.props.titleColor}}/></Icon> {value}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </Grid> 
           <Grid item xs={12} sm={6}>

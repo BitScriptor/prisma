@@ -4,6 +4,7 @@
   font-size: 2em;
   font-weight: 600;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -16,4 +17,25 @@
 
 .container-info {
   background-color: #292927;
+}
+
+.listService {
+  padding: 0 1em;
+}
+
+.listService > div {
+  width: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 1.3em;
+  word-wrap: break-word;
+  padding-left: 20px;
+  position: relative;
+}
+
+.listService .icon svg {
+  position: absolute;
+  left: 7px;
+  top: 13px;
+  font-size: .3em;
 }
