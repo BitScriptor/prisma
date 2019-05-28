@@ -7,27 +7,37 @@ class Header extends React.Component {
 		return (
 			<header>
 				<div className="contactHeader">
-					<div className="contactHeaderLeft">
-						<p className="topData">W (33) 11 36 13 74</p>
-						<p className="topData">T (33) 38 33 07 03 / (33) 36 56 01 01</p>
-					</div>
-					<div className="contactHeaderRight">
-						<a href="www.facebook.com"><p className="topData">Facebook</p></a>
-						<p className="topData">C ventas@prismaneon.com</p>
+					<div className="container container-header-info">
+						<div className="d-flex justify-content-between">
+							<div className="contactHeaderLeft">
+								<span className="topData">W (33) 11 36 13 74</span>
+								<span className="topData">T (33) 38 33 07 03 / (33) 36 56 01 01</span>
+							</div>
+							<div className="contactHeaderRight">
+								<a href="www.facebook.com"><span className="topData">Facebook</span></a>
+								<span className="topData">C ventas@prismaneon.com</span>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div>
 					<a href="/"><img className="logoHeader" src={require("../images/logoPrisma.png")}/></a>
 				</div>
-				<nav className="text-center">
-					<hr/>
+				<nav className="container text-center">
 					<div className="topnav">
-						<a className="active" href="#inicio">INICIO</a>
-						<a href="#nuestroClientes">NUESTROS CLIENTES</a>
-						<a href="#servicios">SERVICIOS</a>
-						<a href="#contacto">CONTACTO</a>
-					</div> 
-					<hr/>
+						<div>
+							<a className="active" href="#inicio">INICIO</a>
+						</div>
+						<div>
+							<a href="#nuestroClientes">NUESTROS CLIENTES</a>
+						</div>
+						<div>
+							<a href="#servicios">SERVICIOS</a>
+						</div>
+						<div>
+							<a href="#contacto">CONTACTO</a>
+						</div>
+					</div>
 				</nav>
 			</header>
 		);

@@ -5,8 +5,8 @@ import Service from './../service/service';
 import './services.css';
 
 const info = {
-  title: 'Anuncios',
-  subtitle: 'aaaaa',
+  title: 'Title',
+  subtitle: 'Subtitle',
   serviceList: [
     'aaaaa',
     'bbbbbbb',
@@ -22,13 +22,13 @@ const info = {
 const ServicesList = () => {
 	return (
 		<div>
-      <div>
+      <div className="text-center my-4">
         nuestros servicios
       </div>
 
       <Grid container spacing={24}>
         <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'200px'} info={info} />
+          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info} />
         </Grid>
       </Grid>
     </div>

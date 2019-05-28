@@ -1,0 +1,19 @@
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1;
+  color: white;
+}
+
+.container-info {
+  background-color: #292927;
+}

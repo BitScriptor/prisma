@@ -15,11 +15,11 @@ class Service extends React.Component {
     return (
       <div>
         <Grid container>
-          <Grid item xs={12} sm={6}>
-            <div>
+          <Grid item xs={12} sm={6} className="container-info">
+            <div className="title" style={{'color': this.props.titleColor}}>
               {this.props.info.title}
             </div>
-            <div>
+            <div className="subtitle">
               {this.props.info.subtitle}
             </div>
             <div className="List">
