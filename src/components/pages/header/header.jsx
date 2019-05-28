@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { withRouter } from "react-router";
 import './header.css';
 
 class Header extends React.Component {
+
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<header>
@@ -26,13 +32,13 @@ class Header extends React.Component {
 				<nav className="container text-center">
 					<div className="topnav">
 						<div>
-							<a className="active" href="#inicio">INICIO</a>
+							<Link className={this.props.location.pathname === '/'? 'active': ''} to="/">INICIO</Link>
 						</div>
 						<div>
-							<a href="#nuestroClientes">NUESTROS CLIENTES</a>
+							<Link className={this.props.location.pathname === '/about'? 'active': ''} to="/about">NUESTROS CLIENTES</Link>
 						</div>
 						<div>
-							<a href="#servicios">SERVICIOS</a>
+							<Link className={this.props.location.pathname === '/services'? 'active': ''} to="/services">SERVICIOS</Link>
 						</div>
 						<div>
 							<a href="#contacto">CONTACTO</a>
@@ -44,4 +50,6 @@ class Header extends React.Component {
 	}
 }
 
-export default Header;
+const ShowTheLocationWithRouterHeader = withRouter(Header);
+
+export default ShowTheLocationWithRouterHeader;
