@@ -159,25 +159,25 @@ const ServicesList = () => {
           <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_luminosos} />
         </Grid>
         <Grid item xs={12} sm={6}>
-			<Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_espectaculares} />
+			<Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_espectaculares} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_carretero} />
+          <Service sliderHeight={'12em'} titleColor={'#346fe2'} info={info_carretero} />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_individuales} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_neon} />
+          <Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_neon} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_aluminio} />
+          <Service sliderHeight={'12em'} titleColor={'#346fe2'} info={info_aluminio} />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_senalizacion} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_velaria} />
+          <Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_velaria} />
         </Grid>
       </Grid>
     </div>
