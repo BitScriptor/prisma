@@ -28,7 +28,7 @@ class Service extends React.Component {
               <div className="listService">
                 {this.props.info.serviceList.map((value, index) => {
                   return (
-                    <Link to={`/services/${value}`} style={{width: this.props.info.col}} key={index}>
+                    <Link to={`/services/${this.props.info.subtitle}`} style={{width: this.props.info.col}} key={index}>
                       <Icon className="icon"><Brightness1 style={{'color': this.props.titleColor}}/></Icon> {value}
                     </Link>
                   );

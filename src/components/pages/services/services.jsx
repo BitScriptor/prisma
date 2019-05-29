@@ -2,76 +2,699 @@ import React from 'react';
 import ServicesDetails from './../../generals/servicesDetails/ServicesDetails';
 
 const info = [{
-  link: 'UNA VISTA',
-  title: 'titulo',
-  description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.',
+  link: 'LUMINOSOS',
+  title: 'ANUNCIOS LUMINOSOS',
+  description: '',
   gallery: [
     {
-        src: "/static/img/img2.jpg",
-        thumbnail: "/static/img/img2.jpg",
+		src: "/static/img/luminosos/unaVista/unavista1.jpg",
+        thumbnail: "/static/img/luminosos/unaVista/unavista1.jpg",
         thumbnailWidth: 240,
         thumbnailHeight: 320,
-        caption: "8H (gratisography.com)",
-        thumbnailCaption: "8H"
     },
     {
-        src: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_b.jpg",
-        thumbnail: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_n.jpg",
+		src: "/static/img/luminosos/nube/nube1.jpg",
+		thumbnail: "/static/img/luminosos/nube/nube1.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 190,
-        caption: "286H (gratisography.com)",
-        thumbnailCaption: "286H"
     },
     {
-        src: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_b.jpg",
-        thumbnail: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_n.jpg",
+		src: "/static/img/luminosos/nube/nube2.jpg",
+		thumbnail: "/static/img/luminosos/nube/nube2.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 148,
-        caption: "315H (gratisography.com)",
-        thumbnailCaption: "315H"
     },
     {
-        src: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_b.jpg",
-        thumbnail: "https://c6.staticflickr.com/9/8342/28897193381_800db6419e_n.jpg",
+		src: "/static/img/luminosos/nube/nube3.jpg",
+		thumbnail: "/static/img/luminosos/nube/nube3.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 213,
-        caption: "201H (gratisography.com)",
-        thumbnailCaption: "201H"
     },
     {
-        src: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_n.jpg",
+		src: "/static/img/luminosos/paleta/paleta1.png",
+		thumbnail: "/static/img/luminosos/paleta/paleta1.png",
         thumbnailWidth: 248,
         thumbnailHeight: 320,
-        caption: "Big Ben (Tom Eversley - isorepublic.com)",
-        thumbnailCaption: "Big Ben"
     },
     {
-        src: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_b.jpg",
-        thumbnail: "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+		src: "/static/img/luminosos/paleta/paleta2.jpg",
+		thumbnail: "/static/img/luminosos/paleta/paleta2.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 113,
-        caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-        thumbnailCaption: (<span style={{color: "darkred"}}>Red Zone - <i>Paris</i></span>)
     },
+      ]
+},
+{
+  link: 'ESPECTACULARES',
+  title: 'ANUNCIOS ESPECTACULARES',
+  description: '',
+  gallery: [
     {
-        src: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
-        thumbnail: "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_n.jpg",
-        thumbnailWidth: 313,
+		src: "/static/img/espectaculares/mastil/mastil1.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil1.jpg",
+        thumbnailWidth: 240,
         thumbnailHeight: 320,
-        caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-        thumbnailCaption: "Wood Glass"
     },
     {
-        src: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_b.jpg",
-        thumbnail: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_n.jpg",
+		src: "/static/img/espectaculares/mastil/mastil2.jpg",
+		thumbnail: "/static/img/espectaculares/mastil/mastil2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/espectaculares/mastil/mastil3.jpg",
+		thumbnail: "/static/img/espectaculares/mastil/mastil3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/espectaculares/mastil/mastil4.jpg",
+		thumbnail: "/static/img/espectaculares/mastil/mastil4.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 213,
-        caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-        thumbnailCaption: "Flower Interior Macro"
-    }
-  ]
-}];
+    },
+    {
+		src: "/static/img/espectaculares/mastil/mastil5.jpg",
+		thumbnail: "/static/img/espectaculares/mastil/mastil5.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/espectaculares/mastil/mastil6.jpg",
+		thumbnail: "/static/img/espectaculares/mastil/mastil6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+		src: "/static/img/espectaculares/mastil/volumetrico/volum1.jpg",
+		thumbnail: "/static/img/espectaculares/volumetrico/volum1.jpg",
+        thumbnailWidth: 300,
+        thumbnailHeight: 320,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil7.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil7.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil8.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil8.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil9.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+		src: "/static/img/espectaculares/mastil/volumetrico/volum2.jpg",
+		thumbnail: "/static/img/espectaculares/volumetrico/volum2.jpg",
+        thumbnailWidth: 300,
+        thumbnailHeight: 320,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil10.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil10.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil11.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil11.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+        src: "/static/img/espectaculares/mastil/mastil12.jpg",
+        thumbnail: "/static/img/espectaculares/mastil/mastil12.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+	{
+		src: "/static/img/espectaculares/mastil/volumetrico/volum3.jpg",
+		thumbnail: "/static/img/espectaculares/volumetrico/volum3.jpg",
+        thumbnailWidth: 300,
+        thumbnailHeight: 320,
+    },
+      ]
+},
+{
+  link: 'TIPO CARRETERO',
+  title: 'ANUNCIOS TIPO CARRETERO',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/carretero/carr1.jpg",
+        thumbnail: "/static/img/carretero/carr1.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/carretero/carr2.jpg",
+		thumbnail: "/static/img/carretero/carr2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/carretero/carr3.jpg",
+		thumbnail: "/static/img/carretero/carr3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/carretero/carr4.jpg",
+		thumbnail: "/static/img/carretero/carr4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+      ]
+},
+{
+  link: 'INDIVIDUALES 3D',
+  title: 'LETRAS INDIVIDUALES 3D',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/individuales/indiv1.jpeg",
+        thumbnail: "/static/img/individuales/indiv1.jpeg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv2.jpg",
+		thumbnail: "/static/img/individuales/indiv2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/individuales/indiv3.jpg",
+		thumbnail: "/static/img/individuales/indiv3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv4.jpg",
+		thumbnail: "/static/img/individuales/indiv4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/individuales/indiv5.jpg",
+		thumbnail: "/static/img/individuales/indiv5.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv6.jpg",
+		thumbnail: "/static/img/individuales/indiv6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv7.jpg",
+		thumbnail: "/static/img/individuales/indiv7.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv8.jpg",
+		thumbnail: "/static/img/individuales/indiv8.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv9.jpg",
+		thumbnail: "/static/img/individuales/indiv9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv10.jpg",
+		thumbnail: "/static/img/individuales/indiv10.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv11.jpg",
+		thumbnail: "/static/img/individuales/indiv11.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv12.jpg",
+		thumbnail: "/static/img/individuales/indiv12.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv13.jpg",
+		thumbnail: "/static/img/individuales/indiv13.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/individuales/indiv14.jpg",
+		thumbnail: "/static/img/individuales/indiv14.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv15.png",
+		thumbnail: "/static/img/individuales/indiv15.png",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv16.jpg",
+		thumbnail: "/static/img/individuales/indiv16.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/individuales/indiv17.jpg",
+		thumbnail: "/static/img/individuales/indiv17.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+
+      ]
+},
+{
+  link: 'NEON',
+  title: 'NEON',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/neon/neon1.jpg",
+		thumbnail: "/static/img/neon/neon1.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/neon/neon2.jpg",
+		thumbnail: "/static/img/neon/neon2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/neon/neon3.jpg",
+		thumbnail: "/static/img/neon/neon3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/neon/neon4.jpg",
+		thumbnail: "/static/img/neon/neon4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/neon/neon5.jpg",
+		thumbnail: "/static/img/neon/neon5.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/neon/neon6.jpg",
+		thumbnail: "/static/img/neon/neon6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/neon/neon7.jpg",
+		thumbnail: "/static/img/neon/neon7.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/neon/neon8.jpg",
+		thumbnail: "/static/img/neon/neon8.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/neon/neon9.jpg",
+		thumbnail: "/static/img/neon/neon9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+      ]
+},
+{
+  link: 'DE ALUMINIO',
+  title: 'PANEL DE ALUMINIO',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/aluminio/aluminio1.jpg",
+        thumbnail: "/static/img/aluminio/aluminio1.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/aluminio2.jpg",
+		thumbnail: "/static/img/aluminio/aluminio2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/aluminio/aluminio3.jpg",
+		thumbnail: "/static/img/aluminio/aluminio3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/aluminio/aluminio4.jpg",
+		thumbnail: "/static/img/aluminio/aluminio4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/aluminio/aluminio5.jpg",
+		thumbnail: "/static/img/aluminio/aluminio5.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/aluminio6.jpg",
+		thumbnail: "/static/img/aluminio/aluminio6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/aluminio/aluminio7.jpg",
+        thumbnail: "/static/img/aluminio/aluminio7.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/aluminio8.jpg",
+		thumbnail: "/static/img/aluminio/aluminio8.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/aluminio/aluminio9.jpg",
+		thumbnail: "/static/img/aluminio/aluminio9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/aluminio/aluminio10.jpg",
+		thumbnail: "/static/img/aluminio/aluminio10.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/aluminio/aluminio11.jpg",
+		thumbnail: "/static/img/aluminio/aluminio11.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/aluminio12.jpg",
+		thumbnail: "/static/img/aluminio/aluminio12.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/aluminio/aluminio13.jpg",
+        thumbnail: "/static/img/aluminio/aluminio13.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/totem/totem1.jpg",
+		thumbnail: "/static/img/aluminio/totem/totem1.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/aluminio/totem/totem2.jpg",
+		thumbnail: "/static/img/aluminio/totem/totem2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/aluminio/totem/totem3.jpg",
+		thumbnail: "/static/img/aluminio/totem/totem3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/aluminio/totem/totem4.jpg",
+		thumbnail: "/static/img/aluminio/totem/totem4.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/aluminio/totem/totem5.jpg",
+		thumbnail: "/static/img/aluminio/totem/totem5.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+      ]
+},
+{
+  link: 'SENALETICA',
+  title: 'SEÑALIZACIONES',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/senaletica/exteriores/exterior1.jpg",
+        thumbnail: "/static/img/senaletica/exteriores/exterior1.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior2.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior2.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior3.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior4.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior5.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior5.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior6.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior7.jpg",
+        thumbnail: "/static/img/senaletica/exteriores/exterior7.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior8.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior8.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/senaletica/exteriores/exterior9.jpg",
+		thumbnail: "/static/img/senaletica/exteriores/exterior9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior1.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior1.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior2.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior2.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior3.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior4.jpg",
+        thumbnail: "/static/img/senaletica/interiores/interior4.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior5.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior5.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior6.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior6.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior7.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior7.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior8.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior8.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior9.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior9.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior10.jpg",
+        thumbnail: "/static/img/senaletica/interiores/interior10.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior11.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior11.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior12.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior12.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior13.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior13.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior14.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior14.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior15.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior15.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior16.jpg",
+        thumbnail: "/static/img/senaletica/interiores/interior16.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior17.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior17.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/senaletica/interiores/interior18.jpg",
+		thumbnail: "/static/img/senaletica/interiores/interior18.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/neonLed/nled1.jpg",
+		thumbnail: "/static/img/senaletica/neonLed/nled1.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/senaletica/neonLed/nled2.jpg",
+		thumbnail: "/static/img/senaletica/neonLed/nled2.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/senaletica/neonLed/nled3.jpg",
+		thumbnail: "/static/img/senaletica/neonLed/nled3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 113,
+    },
+    {
+		src: "/static/img/senaletica/neonLed/nled4.jpg",
+		thumbnail: "/static/img/senaletica/neonLed/nled4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/senaletica/neonLed/nled5.jpg",
+		thumbnail: "/static/img/senaletica/neonLed/nled5.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+      ]
+},
+{
+  link: 'VELARIAS',
+  title: 'VELARIAS',
+  description: '',
+  gallery: [
+    {
+		src: "/static/img/velaria/velaria1.jpg",
+        thumbnail: "/static/img/velaria/velaria1.jpg",
+        thumbnailWidth: 240,
+        thumbnailHeight: 320,
+    },
+    {
+		src: "/static/img/velaria/velaria2.jpeg",
+		thumbnail: "/static/img/velaria/velaria2.jpeg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 190,
+    },
+    {
+		src: "/static/img/velaria/velaria3.jpg",
+		thumbnail: "/static/img/velaria/velaria3.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 148,
+    },
+    {
+		src: "/static/img/velaria/velaria4.jpg",
+		thumbnail: "/static/img/velaria/velaria4.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 213,
+    },
+    {
+		src: "/static/img/velaria/velaria5.jpg",
+		thumbnail: "/static/img/velaria/velaria5.jpg",
+        thumbnailWidth: 248,
+        thumbnailHeight: 320,
+    },
+      ]
+},
+];
 
 class Services extends React.Component {
 
