@@ -1,9 +1,19 @@
 
 .sliderItem {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 50%;
 }
 
 .indicators {
   display: none !important;
+}
+
+.slider {
+  background-color: #292927;
+}
+
+.image-slider {
+  background-repeat: no-repeat;
+  background-size: cover;
 }

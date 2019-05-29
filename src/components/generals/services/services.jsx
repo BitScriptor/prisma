@@ -7,10 +7,11 @@ import './services.css';
 const info_luminosos = {
   title: 'ANUNCIOS',
   subtitle: 'LUMINOSOS',
+  col: '50%',
   serviceList: [
     'UNA VISTA',
     'DOS VISTAS',
-	'TIPO PALETA',
+	  'TIPO PALETA',
     'TIPO NUBE'
   ],
   imgList: [
@@ -23,6 +24,7 @@ const info_luminosos = {
 const info_espectaculares = {
   title: 'ANUNCIOS',
   subtitle: 'ESPECTACULARES',
+  col: '50%',
   serviceList: [
     'TUBO MASTIL',
     'VOLUMETRICO'
@@ -39,14 +41,14 @@ const info_espectaculares = {
 const info_carretero = {
   title: 'ANUNCIOS',
   subtitle: 'TIPO CARRETERO',
+  col: '50%',
   serviceList: [
     'DOBLES',
     'GRANDES',
-	'CUADRADOS',
-	'GRANDES',
-	'MEDIANOS',
-	'PEQUEÑOS'
-
+    'CUADRADOS',
+    'GRANDES',
+    'MEDIANOS',
+    'PEQUEÑOS'
   ],
   imgList: [
     './static/img/acarre1.jpg',
@@ -60,14 +62,14 @@ const info_carretero = {
 const info_individuales = {
   title: 'LETRAS',
   subtitle: 'INDIVIDUALES 3D',
+  col: '50%',
   serviceList: [
     'Acrílico',
     'Aluminio',
-	'Madera',
-	'Acero Inox',
-	'Letras Publicitarias',
-	'Letras Luminosas'
-
+    'Madera',
+    'Acero Inox',
+    'Letras Publicitarias',
+    'Letras Luminosas'
   ],
   imgList: [
     './static/img/lumino1.jpg',
@@ -81,11 +83,11 @@ const info_individuales = {
 const info_neon = {
   title: 'NEÓN',
   subtitle: '',
+  col: '100%',
   serviceList: [
     'Nacional',
     'Importado',
-	'Anuncios de Neón'
-
+	  'Anuncios de Neón'
   ],
   imgList: [
     './static/img/neon1.jpg',
@@ -98,12 +100,12 @@ const info_neon = {
 const info_aluminio = {
   title: 'PANEL',
   subtitle: 'DE ALUMINIO',
+  col: '50%',
   serviceList: [
     'Fachadas',
     'Anuncios',
-	'Muros',
-	'Totem'
-
+    'Muros',
+    'Totem'
   ],
   imgList: [
     './static/img/aluminio1.jpg',
@@ -116,12 +118,12 @@ const info_aluminio = {
 const info_senalizacion = {
   title: 'SEÑALIZACIONES',
   subtitle: '',
+  col: '50%',
   serviceList: [
     'Exteriores',
     'Neón',
-	'Leds',
-	'Señalétia Corporativa'
-
+    'Leds',
+    'Señalétia Corporativa'
   ],
   imgList: [
     './static/img/sena1.jpg',
@@ -134,11 +136,11 @@ const info_senalizacion = {
 const info_velaria = {
   title: 'VELARIAS',
   subtitle: '',
+  col: '100%',
   serviceList: [
     'Diferentes tipos de lonaria',
     'Estructura a diseño',
-	'Diferentes porcentajes de protección solar'
-
+	  'Diferentes porcentajes de protección solar'
   ],
   imgList: [
     './static/img/vela1.jpg',

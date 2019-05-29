@@ -26,13 +26,13 @@
 
 .listService > a {
   text-decoration:none; 
-  width: 50%;
   display: inline-block;
   color: white;
   font-size: 1.3em;
   word-wrap: break-word;
   padding-left: 20px;
   position: relative;
+  vertical-align: top;
 }
 
 .listService > a:link {

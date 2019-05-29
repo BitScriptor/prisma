@@ -11,7 +11,6 @@ import './service.css';
 class Service extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
   }
 
   render() {
@@ -29,7 +28,7 @@ class Service extends React.Component {
               <div className="listService">
                 {this.props.info.serviceList.map((value, index) => {
                   return (
-                    <Link to={`/services/${value}`} key={index}>
+                    <Link to={`/services/${value}`} style={{width: this.props.info.col}} key={index}>
                       <Icon className="icon"><Brightness1 style={{'color': this.props.titleColor}}/></Icon> {value}
                     </Link>
                   );
@@ -38,7 +37,7 @@ class Service extends React.Component {
             </div>
           </Grid> 
           <Grid item xs={12} sm={6}>
-            <Slideshow imgList={this.props.info.imgList} height={'200px'}/>
+            <Slideshow imgList={this.props.info.imgList} height={this.props.sliderHeight}/>
           </Grid>
         </Grid>
       </div>
