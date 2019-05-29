@@ -38,9 +38,6 @@ class Header extends React.Component {
 							<Link className={this.props.location.pathname === '/about'? 'active': ''} to="/about">NUESTROS CLIENTES</Link>
 						</div>
 						<div>
-							<Link className={this.props.location.pathname === '/services'? 'active': ''} to="/services">SERVICIOS</Link>
-						</div>
-						<div>
 							<a href="#contacto">CONTACTO</a>
 						</div>
 					</div>
