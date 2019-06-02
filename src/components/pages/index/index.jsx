@@ -9,10 +9,18 @@ const imgList = [
   './static/min/img3.png',
 ];
 class Index extends React.Component {
+
+  componentDidMount(prevProps) {
+		// eslint-disable-next-line no-undef
+		AOS.init();
+  }
+  
   render() {
     return (
       <div className="container">
-        <Slider imgList={imgList} height={'25em'}/>
+        <div className="img-main-index">
+          <Slider imgList={imgList} height={'25em'}/>
+        </div>
         <ServicesList/>
       </div>
     );

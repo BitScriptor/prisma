@@ -147,43 +147,71 @@ const info_velaria = {
     './static/min/vela2.png',
     './static/min/vela3.png'
   ]
-}	
+}
 
-const ServicesList = () => {
-	return (
-		<div>
-      <div className="text-center my-4 text-title-section">
-        nuestros servicios
+class ServicesList extends React.Component {
+
+  constructor(props){
+    super(props);
+  }
+
+  componentDidMount(prevProps) {
+		// eslint-disable-next-line no-undef
+		AOS.init();
+	}
+
+  render() {
+    return (
+      <div>
+        <div data-aos="flip-up" className="text-center my-4 text-title-section">
+          nuestros servicios
+        </div>
+
+        <Grid container spacing={24}>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#f9e95a'} info={info_luminosos} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#db1cef'} info={info_espectaculares} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#346fe2'} info={info_carretero} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#f9e95a'} info={info_individuales} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#db1cef'} info={info_neon} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#346fe2'} info={info_aluminio} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#f9e95a'} info={info_senalizacion} />
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <div data-aos="zoom-in">
+              <Service sliderHeight={'13em'} titleColor={'#db1cef'} info={info_velaria} />
+            </div>
+          </Grid>
+        </Grid>
       </div>
-
-      <Grid container spacing={24}>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_luminosos} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-			<Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_espectaculares} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#346fe2'} info={info_carretero} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_individuales} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_neon} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#346fe2'} info={info_aluminio} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#f9e95a'} info={info_senalizacion} />
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Service sliderHeight={'12em'} titleColor={'#db1cef'} info={info_velaria} />
-        </Grid>
-      </Grid>
-    </div>
-	)
+    );
+  }
 }
 
 export default ServicesList;

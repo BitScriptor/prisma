@@ -16,4 +16,16 @@
 .image-slider {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;  
 }
+
+@media (max-width: 576px) {
+  .image-slider { 
+    font-size: 17px;
+  }
+
+  .img-main-index .image-slider {
+    height: 11em !important;
+  }
+}
+

@@ -9,6 +9,11 @@ class Header extends React.Component {
 		super(props);
 	}
 
+	componentDidMount(prevProps) {
+		// eslint-disable-next-line no-undef
+		AOS.init();
+	}
+
 	render() {
 		return (
 			<header>
@@ -29,7 +34,7 @@ class Header extends React.Component {
 				<div>
 					<a href="/"><img className="logoHeader" src={require("../images/logoPrisma.png")}/></a>
 				</div>
-				<nav className="container text-center">
+				<nav data-aos="flip-up" className="container text-center">
 					<div className="topnav">
 						<div>
 							<Link className={this.props.location.pathname === '/'? 'active': ''} to="/">INICIO</Link>
