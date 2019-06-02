@@ -1,0 +1,50 @@
+.container-footer {
+	background-color: #292927;
+	color: white;
+}
+
+.footer-title {
+	font-size: 2em;
+	margin: 0 0 .2em 0;
+}
+
+.text-blue .footer-title {
+	color: rgb(52, 111, 226);
+}
+
+.text-yellow .footer-title {
+	color: rgb(249, 233, 90);
+}
+
+.text-pink .footer-title {
+	color: rgb(219, 28, 239);
+}
+
+.footer-list .footer-list-item{
+	font-size: 1em;
+	margin: 0 0 .1em 0;
+}
+
+.footer-list-item {
+	padding-left: 30px;
+	position: relative;
+}
+
+.footer-list-item svg {
+	position: absolute;
+	left: 0;
+	top: -1px;
+	width: 20px;
+}
+
+.footer-list-item.icon-yellow svg {
+	color: rgb(249, 233, 90);
+}
+
+.footer-list-item.icon-pink svg {
+	color: rgb(219, 28, 239);
+}
+
+.footer-list-item.icon-blue svg {
+	color: rgb(52, 111, 226);
+}

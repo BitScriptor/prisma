@@ -34,11 +34,11 @@ class Header extends React.Component {
 						<div>
 							<Link className={this.props.location.pathname === '/'? 'active': ''} to="/">INICIO</Link>
 						</div>
-						<div>
+						{/*<div>
 							<Link className={this.props.location.pathname === '/about'? 'active': ''} to="/about">NUESTROS CLIENTES</Link>
-						</div>
+						</div>*/}
 						<div>
-							<a href="#contacto">CONTACTO</a>
+						<Link className={this.props.location.pathname === '/contact'? 'active': ''} to="/contact">Contacto</Link>
 						</div>
 					</div>
 				</nav>
