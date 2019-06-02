@@ -4,9 +4,9 @@ import ServicesList from './../../generals/services/services';
 
 
 const imgList = [
-  './static/img/img1.jpg',
-  './static/img/img2.jpg',
-  './static/img/img3.jpg',
+  './static/min/img1.png',
+  './static/min/img2.png',
+  './static/min/img3.png',
 ];
 class Index extends React.Component {
   render() {

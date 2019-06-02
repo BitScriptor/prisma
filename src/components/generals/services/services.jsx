@@ -15,9 +15,9 @@ const info_luminosos = {
     'TIPO NUBE'
   ],
   imgList: [
-    './static/img/alumi1.jpg',
-    './static/img/alumi2.jpg',
-    './static/img/alumi3.jpg'
+    './static/min/alumi1.png',
+    './static/min/alumi2.png',
+    './static/min/alumi3.png'
   ]
 }
 
@@ -30,11 +30,11 @@ const info_espectaculares = {
     'VOLUMETRICO'
   ],
   imgList: [
-    './static/img/aespec1.jpg',
-    './static/img/aespec2.jpg',
-    './static/img/aespec3.jpg',
-    './static/img/aespec4.jpg',
-    './static/img/aespec5.jpg'
+    './static/min/aespec1.png',
+    './static/min/aespec2.png',
+    './static/min/aespec3.png',
+    './static/min/aespec4.png',
+    './static/min/aespec5.png'
   ]
 }
 
@@ -51,10 +51,10 @@ const info_carretero = {
     'PEQUEÑOS'
   ],
   imgList: [
-    './static/img/acarre1.jpg',
-    './static/img/acarre2.jpg',
-    './static/img/acarre3.jpg',
-    './static/img/acarre4.jpg'
+    './static/min/acarre1.png',
+    './static/min/acarre2.png',
+    './static/min/acarre3.png',
+    './static/min/acarre4.png'
   ]
 }	
 
@@ -72,10 +72,10 @@ const info_individuales = {
     'Letras Luminosas'
   ],
   imgList: [
-    './static/img/lumino1.jpg',
-    './static/img/lumino2.jpg',
-    './static/img/lumino3.jpg',
-    './static/img/lumino4.jpg'
+    './static/min/lumino1.png',
+    './static/min/lumino2.png',
+    './static/min/lumino3.png',
+    './static/min/lumino4.png'
   ]
 }	
 
@@ -90,9 +90,9 @@ const info_neon = {
 	  'Anuncios de Neón'
   ],
   imgList: [
-    './static/img/neon1.jpg',
-    './static/img/neon2.jpg',
-    './static/img/neon3.jpg'
+    './static/min/neon1.png',
+    './static/min/neon2.png',
+    './static/min/neon3.png'
   ]
 }	
 
@@ -108,9 +108,9 @@ const info_aluminio = {
     'Totem'
   ],
   imgList: [
-    './static/img/aluminio1.jpg',
-    './static/img/aluminio2.jpg',
-    './static/img/aluminio3.jpg'
+    './static/min/aluminio1.png',
+    './static/min/aluminio2.png',
+    './static/min/aluminio3.png'
   ]
 }	
 
@@ -126,9 +126,9 @@ const info_senalizacion = {
     'Señalétia Corporativa'
   ],
   imgList: [
-    './static/img/sena1.jpg',
-    './static/img/sena2.jpg',
-    './static/img/sena3.jpg'
+    './static/min/sena1.png',
+    './static/min/sena2.png',
+    './static/min/sena3.png'
   ]
 }	
 
@@ -143,9 +143,9 @@ const info_velaria = {
 	  'Diferentes porcentajes de protección solar'
   ],
   imgList: [
-    './static/img/vela1.jpg',
-    './static/img/vela2.jpg',
-    './static/img/vela3.jpg'
+    './static/min/vela1.png',
+    './static/min/vela2.png',
+    './static/min/vela3.png'
   ]
 }	
 
