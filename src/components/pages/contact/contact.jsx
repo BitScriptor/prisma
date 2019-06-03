@@ -26,6 +26,7 @@ class Contact extends React.Component {
 			xhr.addEventListener("readystatechange", function () {
 				if (this.readyState === 4) {
 					console.log(this.responseText);
+					window.location.reload();
 				}
 			});
 

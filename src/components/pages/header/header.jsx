@@ -31,7 +31,7 @@ class Header extends React.Component {
 								</span>
 							</div>
 							<div className="contactHeaderRight">
-								<a href="https://www.facebook.com/prismapublicidadexterior/">
+								<a href="https://www.facebook.com/prismapublicidadexterior/" target="_blank">
 									<span>
 										<img className="icon-header" src="/static/img/face.png"/>
 									</span>
