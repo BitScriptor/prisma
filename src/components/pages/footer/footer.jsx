@@ -41,7 +41,7 @@ class Footer extends React.Component {
 								<div className="footer-list">
 									<div className="footer-list-item icon-pink">
 										<Email/>
-										sdasdasdasd@ssdfsdf.com
+										ventas@prismaneon.com
 									</div>
 								</div>
 							</div>
@@ -54,7 +54,8 @@ class Footer extends React.Component {
 								<div className="footer-list">
 									<div className="footer-list-item icon-blue">
 										<Phone/>
-										(33) 23 23 23 43
+										(33) 38 33 07 63 /
+										(33) 36 56 01 01
 									</div>
 								</div>
 							</div>
