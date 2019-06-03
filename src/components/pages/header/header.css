@@ -61,6 +61,11 @@ hr{
 }
 
 .topData{
-
+	margin-right: 30px;
 }
 
+.icon-header {
+	width: 1.4em;
+	margin-right: 10px;
+	vertical-align: sub;
+}

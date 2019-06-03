@@ -21,12 +21,27 @@ class Header extends React.Component {
 					<div className="container container-header-info">
 						<div className="d-flex justify-content-between">
 							<div className="contactHeaderLeft">
-								<span className="topData"><img src="/static/img/whats.png"/> (33) 11 36 13 74</span>
-								<span className="topData"><img src="/static/img/telefono.png"/>(33) 38 33 07 03 / (33) 36 56 01 01</span>
+								<span className="topData">
+									<img className="icon-header" src="/static/img/whats.png"/>
+									(33) 11 36 13 74
+								</span>
+								<span className="topData">
+									<img className="icon-header" src="/static/img/telefono.png"/>
+									(33) 38 33 07 03 / (33) 36 56 01 01
+								</span>
 							</div>
 							<div className="contactHeaderRight">
-								<a href="https://www.facebook.com/prismapublicidadexterior/"><span className="topData"><img src="/static/img/face.png"/></span></a>
-								<span className="topData"><img src="/static/img/mail.png"/>ventas@prismaneon.com</span>
+								<a href="https://www.facebook.com/prismapublicidadexterior/">
+									<span>
+										<img className="icon-header" src="/static/img/face.png"/>
+									</span>
+								</a>
+								<span className="topData">
+									<a href="mailto:ventas@prismaneon.com">
+										<img className="icon-header" src="/static/img/mail.png"/>
+										ventas@prismaneon.com
+									</a>
+								</span>
 							</div>
 						</div>
 					</div>
