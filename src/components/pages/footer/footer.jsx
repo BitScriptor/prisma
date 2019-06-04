@@ -40,9 +40,9 @@ class Footer extends React.Component {
 								</div>
 								<div className="footer-list">
 									<div className="footer-list-item icon-pink">
-										<a href="mailto:ventas@prismaneon.com">
+										<a href="mailto:prisma_neon@yahoo.com.mx">
 											<Email/>
-											ventas@prismaneon.com
+											prisma_neon@yahoo.com.mx
 										</a>
 									</div>
 								</div>
@@ -54,12 +54,6 @@ class Footer extends React.Component {
 									Contáctanos por teléfono
 								</div>
 								<div className="footer-list">
-									<div className="footer-list-item icon-blue">
-										<a href="tel:3338330763">
-											<Phone/>
-											(33) 38 33 07 63
-										</a>
-									</div>
 									<div className="footer-list-item icon-blue">
 										<a href="tel:3336560101">
 											<Phone/>

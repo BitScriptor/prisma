@@ -27,7 +27,7 @@ class Header extends React.Component {
 								</span>
 								<span className="topData">
 									<img className="icon-header" src="/static/img/telefono.png"/>
-									(33) 38 33 07 03 / (33) 36 56 01 01
+									(33) 36 56 01 01
 								</span>
 							</div>
 							<div className="contactHeaderRight">
@@ -37,9 +37,9 @@ class Header extends React.Component {
 									</span>
 								</a>
 								<span className="topData">
-									<a href="mailto:ventas@prismaneon.com">
+									<a href="mailto:prisma_neon@yahoo.com.mx">
 										<img className="icon-header" src="/static/img/mail.png"/>
-										ventas@prismaneon.com
+										prisma_neon@yahoo.com.mx
 									</a>
 								</span>
 							</div>
