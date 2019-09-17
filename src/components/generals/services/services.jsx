@@ -82,7 +82,7 @@ const info_individuales = {
 
 const info_neon = {
   title: 'NEÓN',
-  subtitle: '',
+  subtitle: 'NEON',
   col: '100%',
   serviceList: [
     'Nacional',
@@ -117,7 +117,7 @@ const info_aluminio = {
 
 const info_senalizacion = {
   title: 'SEÑALIZACIONES',
-  subtitle: '',
+  subtitle: 'SENALETICA',
   col: '50%',
   serviceList: [
     'Exteriores',
@@ -135,7 +135,7 @@ const info_senalizacion = {
 
 const info_velaria = {
   title: 'VELARIAS',
-  subtitle: '',
+  subtitle: 'VELARIAS',
   col: '100%',
   serviceList: [
     'Diferentes tipos de lonaria',
@@ -162,7 +162,7 @@ class ServicesList extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="nuestros-clientes">
         <div data-aos="flip-up" className="text-center my-4 text-title-section">
           nuestros servicios
         </div>

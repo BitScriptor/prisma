@@ -4,11 +4,18 @@
 	font-family: Phenomena-Regular;
 	src: url('../fonts/phenomena/Phenomena-Regular.otf');
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 .topnav {
 	border-top: solid gray 1px;
 	border-bottom: solid gray 1px;
 	margin: 0 0 1.9em 0;
+	margin-top: auto;
 	display: flex;
+	width: 100%;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -36,10 +43,9 @@
   color: black;
 }
 .logoHeader{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width:16em;
+	display: flex;
+	margin-left: 20px;
+	width:12em;
 }
 hr{
 	width:85%;
@@ -68,4 +74,8 @@ hr{
 	width: 1.4em;
 	margin-right: 10px;
 	vertical-align: sub;
+}
+
+.flex-container {
+	display: flex;
 }

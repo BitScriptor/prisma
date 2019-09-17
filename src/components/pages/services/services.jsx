@@ -4,7 +4,7 @@ import ServicesDetails from './../../generals/servicesDetails/ServicesDetails';
 const info = [{
   link: 'LUMINOSOS',
   title: 'ANUNCIOS LUMINOSOS',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/luminosos/unaVista/unavista1.jpg",
@@ -47,7 +47,7 @@ const info = [{
 {
   link: 'ESPECTACULARES',
   title: 'ANUNCIOS ESPECTACULARES',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/espectaculares/mastil/mastil1.jpg",
@@ -144,7 +144,7 @@ const info = [{
 {
   link: 'TIPO CARRETERO',
   title: 'ANUNCIOS TIPO CARRETERO',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/carretero/carr1.jpg",
@@ -175,7 +175,7 @@ const info = [{
 {
   link: 'INDIVIDUALES 3D',
   title: 'LETRAS INDIVIDUALES 3D',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/individuales/indiv1.jpeg",
@@ -285,7 +285,7 @@ const info = [{
 {
   link: 'NEON',
   title: 'NEON',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/neon/neon1.jpg",
@@ -346,7 +346,7 @@ const info = [{
 {
   link: 'DE ALUMINIO',
   title: 'PANEL DE ALUMINIO',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/aluminio/aluminio1.jpg",
@@ -461,7 +461,7 @@ const info = [{
 {
   link: 'SENALETICA',
   title: 'SEÑALIZACIONES',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/senaletica/exteriores/exterior1.jpg",
@@ -660,7 +660,7 @@ const info = [{
 {
   link: 'VELARIAS',
   title: 'VELARIAS',
-  description: '',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   gallery: [
     {
 		src: "/static/img/velaria/velaria1.jpg",
@@ -700,13 +700,19 @@ class Services extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(this.props.match.params.service);
+    console.log('I AM PARAMS SERVICE', this.props.match.params.service);
   }
 
   render() {
+    console.log('PARAMS SERVICE', this.props.match.params.service);
+    info.filter(item => {
+        console.log(item.link);
+        console.log(this.props.match.params.service);
+        console.log(item.link === this.props.match.params.service);
+    })
     return (
-      <div className="container">
-        <ServicesDetails data={info.filter(item => item.link === this.props.match.params.service )[0]}/>
+      <div>
+        <ServicesDetails data={info.filter(item => item.link === this.props.match.params.service)[0]}/>
       </div>
     );
   }

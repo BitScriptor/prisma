@@ -1,15 +1,6 @@
 import React from "react";
 import './slideImg.css';
-import { Slide } from 'react-slideshow-image';
 import Slider from "react-slick";
-
-const properties = {
-	duration: 5000,
-	transitionDuration: 500,
-	infinite: true,
-	indicators: true,
-	arrows: true
-}
 
 var settings = {
 	arrows: false,
@@ -32,19 +23,16 @@ class Slideshow extends React.Component {
   }
 
   render() {
-		if (this.props.imgList) {
+		const { imgList, height } = this.props;
+		if (imgList) {
 			return (
 				<div className="slider">
 					<Slider {...settings}>
-						<div>
-							<div className="image-slider" style={{backgroundImage: `url(${this.props.imgList[0]})`, height: this.props.height}}></div>
-						</div>
-						<div>
-							<div className="image-slider" style={{backgroundImage: `url(${this.props.imgList[1]})`, height: this.props.height}}></div>
-						</div>
-						<div>
-							<div className="image-slider" style={{backgroundImage: `url(${this.props.imgList[2]})`, height: this.props.height}}></div>
-						</div>
+						{imgList.map((image, index) => (
+							<div>
+								<div className="image-slider" style={{backgroundImage: `url(${image})`, height: height}}></div>
+							</div>
+						))}
 					</Slider>
 				</div>
 			);

@@ -46,19 +46,17 @@ class Header extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div>
+				<nav data-aos="flip-up" className="flex-container">
 					<a href="/"><img className="logoHeader" src={require("../images/logoPrisma.png")}/></a>
-				</div>
-				<nav data-aos="flip-up" className="container text-center">
 					<div className="topnav">
 						<div>
 							<Link className={this.props.location.pathname === '/'? 'active': ''} to="/">INICIO</Link>
 						</div>
-						{/*<div>
-							<Link className={this.props.location.pathname === '/about'? 'active': ''} to="/about">NUESTROS CLIENTES</Link>
-						</div>*/}
 						<div>
-						<Link className={this.props.location.pathname === '/contact'? 'active': ''} to="/contact">Contacto</Link>
+							{this.props.location.pathname === '/' && <a href="#nuestros-clientes">NUESTROS CLIENTES</a>}
+						</div>
+						<div>
+						<Link className={this.props.location.pathname === '/contact'? 'active': ''} to="/contact">CONTACTO</Link>
 						</div>
 					</div>
 				</nav>

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Gallery from 'react-grid-gallery';
+import Slider from './../../generals/slideImg/slideImg';
 import './ServicesDetails.css';
 
 class ServicesDetails extends React.Component {
@@ -13,7 +14,13 @@ class ServicesDetails extends React.Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
+    const { data } = this.props;
+    const imgList = data.gallery.map((image) => image.src);
     return (
       <div>
         <div className="text-center title-service">
@@ -32,9 +39,9 @@ class ServicesDetails extends React.Component {
                 background: "white"
             }}
             className="mb-5">
-          <Gallery
-            images={this.props.data.gallery}
-            enableImageSelection={false}
+          <Slider
+            imgList={imgList}
+            height={'39em'}
           />
         </div>
       </div>
