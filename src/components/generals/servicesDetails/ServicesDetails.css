@@ -4,7 +4,20 @@
 }
 
 .description {
-  font-size: 1.4em;
+  display: table;
+  width: auto;
+  margin: auto;
+}
+
+.description-container {
+  margin: auto;
+}
+
+.description-text {
   text-align: justify;
-  padding: 0 36px 0 36px;
+  font-size: 1.4em;
+}
+
+.description-title {
+  font-size: 1.6em;
 }

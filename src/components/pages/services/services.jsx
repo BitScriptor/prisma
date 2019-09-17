@@ -4,7 +4,18 @@ import ServicesDetails from './../../generals/servicesDetails/ServicesDetails';
 const info = [{
   link: 'LUMINOSOS',
   title: 'ANUNCIOS LUMINOSOS',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Diseñado y fabricado de acuerdo a las necesidades especificas del cliente.</div>
+      <div className="description-text">Estructurado con ptr y ángulo.</div>
+      <div className="description-text">Pantalla de lona traslucida o acrílico, decorada en inyección de tinta o recorte de vinil.</div>
+      <div className="description-text">Sistema de iluminación con lámparas de leds y balastro electrónico.</div>
+      <ul>
+          <li className="description-text">Tipo Nube</li>
+          <li className="description-text">Tipo Paleta</li>
+          <li className="description-text">Una o Dos vistas</li>
+      </ul>
+    </div>,
   gallery: [
     {
 		src: "/static/img/luminosos/unaVista/unavista1.jpg",
@@ -47,7 +58,13 @@ const info = [{
 {
   link: 'ESPECTACULARES',
   title: 'ANUNCIOS ESPECTACULARES',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Pantalla: fabricada de ángulo, para formar torres y dar forma a la pantalla, según la medida que sea requerida por el cliente</div>
+      <div className="description-text">Tubo flauta con placa de acero para recibir la pantalla</div>
+      <div className="description-text">Tubo Mástil según especificaciones de anuncio</div>
+      <div className="description-text">Cimentación de acuerdo a peso y dimensiones de anuncio</div>
+    </div>,
   gallery: [
     {
 		src: "/static/img/espectaculares/mastil/mastil1.jpg",
@@ -144,7 +161,10 @@ const info = [{
 {
   link: 'TIPO CARRETERO',
   title: 'ANUNCIOS TIPO CARRETERO',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Pantalla fabricada de lamina, rotulada con vinil reflejante grado ingeniería, medidas y formato de acuerdo a requerimientos</div>
+    </div>,
   gallery: [
     {
 		src: "/static/img/carretero/carr1.jpg",
@@ -175,7 +195,17 @@ const info = [{
 {
   link: 'INDIVIDUALES 3D',
   title: 'LETRAS INDIVIDUALES 3D',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Fabricadas con la tipografía y en la medida de su preferencia, con sistema de iluminación a base de leds en el color que le de la visibilidad adecuada a su negocio</div>
+      <div className="description-text">Estructurado con ptr y ángulo.</div>
+      <ul>
+          <li className="description-text">Acero Inoxidable</li>
+          <li className="description-text">Aluminio</li>
+          <li className="description-text">Acrílico</li>
+          <li className="description-text">Etc...</li>
+      </ul>
+    </div>,
   gallery: [
     {
 		src: "/static/img/individuales/indiv1.jpeg",
@@ -285,7 +315,12 @@ const info = [{
 {
   link: 'NEON',
   title: 'NEON',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">El tubo de Gas Neon le da un toque retro a tu negocio, con colores llamativos, su fabricación es artesanal parecido al vidrio soplado</div>
+      <div className="description-text">Los colores del Gas Neon son los del arcoíris</div>
+      <div className="description-text">Contamos con tubo de Gas Neon nacional e importado</div>
+    </div>,
   gallery: [
     {
 		src: "/static/img/neon/neon1.jpg",
@@ -346,7 +381,17 @@ const info = [{
 {
   link: 'DE ALUMINIO',
   title: 'PANEL DE ALUMINIO',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <b className="description-title">PANEL DE ALUMINIO</b>
+      <div className="description-text">Utilizado para recubrir fachadas, para fabricación de anuncios tipo Totem ect...</div>
+      <div className="description-text">Material muy recomendable por su durabilidad</div>
+      <div className="description-text">No requiere manteamiento</div>
+      <div className="description-text">Se cuenta con una amplia gama de colores</div>
+      <b className="description-title">TIPO TOTEM</b>
+      <div className="description-text">Anuncio emblemático ideal para centros comerciales, grupo de servicios médicos o grupo de prestadores de servicios, ya que funcionan como directorio</div>
+      <div className="description-text">Se fabrican en diferentes materiales, y dimensiones de acuerdo al requerimiento publicitario</div>
+    </div>,
   gallery: [
     {
 		src: "/static/img/aluminio/aluminio1.jpg",
@@ -461,7 +506,18 @@ const info = [{
 {
   link: 'SENALETICA',
   title: 'SEÑALIZACIONES',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Diseñado y fabricado de acuerdo a las necesidades especificas del cliente.</div>
+      <div className="description-text">Estructurado con ptr y ángulo.</div>
+      <div className="description-text">Pantalla de lona traslucida o acrílico, decorada en inyección de tinta o recorte de vinil.</div>
+      <div className="description-text">Sistema de iluminación con lámparas de leds y balastro electrónico.</div>
+      <ul>
+          <li className="description-text">Tipo Nube</li>
+          <li className="description-text">Tipo Paleta</li>
+          <li className="description-text">Una o Dos vistas</li>
+      </ul>
+    </div>,
   gallery: [
     {
 		src: "/static/img/senaletica/exteriores/exterior1.jpg",
@@ -660,7 +716,18 @@ const info = [{
 {
   link: 'VELARIAS',
   title: 'VELARIAS',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+  description:
+    <div className="description-container">
+      <div className="description-text">Diseñado y fabricado de acuerdo a las necesidades especificas del cliente.</div>
+      <div className="description-text">Estructurado con ptr y ángulo.</div>
+      <div className="description-text">Pantalla de lona traslucida o acrílico, decorada en inyección de tinta o recorte de vinil.</div>
+      <div className="description-text">Sistema de iluminación con lámparas de leds y balastro electrónico.</div>
+      <ul>
+          <li className="description-text">Tipo Nube</li>
+          <li className="description-text">Tipo Paleta</li>
+          <li className="description-text">Una o Dos vistas</li>
+      </ul>
+    </div>,
   gallery: [
     {
 		src: "/static/img/velaria/velaria1.jpg",
@@ -698,18 +765,7 @@ const info = [{
 
 class Services extends React.Component {
 
-  constructor(props) {
-    super(props);
-    console.log('I AM PARAMS SERVICE', this.props.match.params.service);
-  }
-
   render() {
-    console.log('PARAMS SERVICE', this.props.match.params.service);
-    info.filter(item => {
-        console.log(item.link);
-        console.log(this.props.match.params.service);
-        console.log(item.link === this.props.match.params.service);
-    })
     return (
       <div>
         <ServicesDetails data={info.filter(item => item.link === this.props.match.params.service)[0]}/>
