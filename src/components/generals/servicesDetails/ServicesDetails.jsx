@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Gallery from 'react-grid-gallery';
 import Slider from './../../generals/slideImg/slideImg';
 import './ServicesDetails.css';
 

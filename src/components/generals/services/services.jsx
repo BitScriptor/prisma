@@ -53,8 +53,7 @@ const info_carretero = {
   imgList: [
     './static/min/acarre1.png',
     './static/min/acarre2.png',
-    './static/min/acarre3.png',
-    './static/min/acarre4.png'
+    './static/min/acarre4.png',
   ]
 }	
 

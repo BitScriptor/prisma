@@ -173,12 +173,6 @@ const info = [{
         thumbnailHeight: 320,
     },
     {
-		src: "/static/img/carretero/carr2.jpg",
-		thumbnail: "/static/img/carretero/carr2.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 190,
-    },
-    {
 		src: "/static/img/carretero/carr3.jpg",
 		thumbnail: "/static/img/carretero/carr3.jpg",
         thumbnailWidth: 320,

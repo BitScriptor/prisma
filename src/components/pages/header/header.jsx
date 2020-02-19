@@ -1,7 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
+import Slider from '../../generals/slideImg/slideImg';
 import './header.css';
+
+
+const imgList = [
+  './static/min/img1.png',
+  './static/min/img2.png',
+  './static/min/img3.png',
+];
 
 class Header extends React.Component {
 
@@ -15,8 +23,9 @@ class Header extends React.Component {
 	}
 
 	render() {
+		const isHome = this.props.location.pathname === '/'
 		return (
-			<header>
+			<header className="headerContainer">
 				<div className="contactHeader">
 					<div className="container container-header-info">
 						<div className="d-flex justify-content-between">
@@ -47,19 +56,28 @@ class Header extends React.Component {
 					</div>
 				</div>
 				<nav data-aos="flip-up" className="flex-container">
-					<a href="/"><img className="logoHeader" src={require("../images/logoPrisma.png")}/></a>
-					<div className="topnav">
-						<div>
-							<Link className={this.props.location.pathname === '/'? 'active': ''} to="/">INICIO</Link>
-						</div>
-						<div>
-							{this.props.location.pathname === '/' && <a href="#nuestros-clientes">NUESTROS CLIENTES</a>}
-						</div>
-						<div>
-						<Link className={this.props.location.pathname === '/contact'? 'active': ''} to="/contact">CONTACTO</Link>
-						</div>
+					<div className="logoContainer">
+						<a href="/">
+							<img className="logoHeader" src={require("../images/logoPrisma.png")}/>
+						</a>
 					</div>
 				</nav>
+				<div className="topnav">
+					<div>
+						<Link className={isHome ? 'active': ''} to="/">INICIO</Link>
+					</div>
+					<div>
+						{this.props.location.pathname === '/' && <a href="#nuestros-clientes">NUESTROS SERVICIOS</a>}
+					</div>
+					<div>
+					<Link className={this.props.location.pathname === '/contact'? 'active': ''} to="/contact">CONTACTO</Link>
+					</div>
+				</div>
+				{isHome && 
+					<div className="img-main-index">
+						<Slider imgList={imgList} height={'25em'}/>
+					</div>
+				}
 			</header>
 		);
 	}

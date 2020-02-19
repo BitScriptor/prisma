@@ -17,6 +17,7 @@ class Service extends React.Component {
     return (
       <div>
         <Grid container>
+          <Link to={`/services/${this.props.info.subtitle}`} className="linkContainer" />
           <Grid item xs={12} sm={6} className="container-info">
             <div className="title" style={{'color': this.props.titleColor}}>
               {this.props.info.title}

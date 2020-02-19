@@ -10,36 +10,44 @@ html {
 }
 
 .topnav {
+	align-items: center;
 	border-top: solid gray 1px;
 	border-bottom: solid gray 1px;
-	margin: 0 0 1.9em 0;
+	margin:0 auto;
 	margin-top: auto;
 	display: flex;
-	width: 100%;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	position: relative;
+	top: 35px;
+	width: 60%;
+	height: 70px;
+	z-index: 1;
+	background-color: rgb(41, 41, 39, 1);
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: black;
+  color: white;
   text-align: center;
 	padding: .2em .6em;
 	display: inline-block;
   text-decoration: none;
   font-size: 1.7em;
-  font-family:Phenomena-Regular;
+	font-family:Phenomena-Regular;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+	background-color: rgb(255, 255, 255, 0.45);
+	border-radius: 15px;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+	background-color: #ddd;
+	border-radius: 15px;
   color: black;
 }
 .logoHeader{
@@ -78,4 +86,15 @@ hr{
 
 .flex-container {
 	display: flex;
+}
+
+.logoContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerContainer {
+	min-height: 320px;
 }
