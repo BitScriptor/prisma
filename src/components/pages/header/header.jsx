@@ -6,9 +6,15 @@ import './header.css';
 
 
 const imgList = [
-  './static/min/img1.png',
-  './static/min/img2.png',
-  './static/min/img3.png',
+  './static/min/ruletaPrincipal/img1.jpg',
+  './static/min/ruletaPrincipal/img2.jpg',
+  './static/min/ruletaPrincipal/img3.jpg',
+  './static/min/ruletaPrincipal/img4.jpg',
+  './static/min/ruletaPrincipal/img5.jpg',
+  './static/min/ruletaPrincipal/img6.jpg',
+  './static/min/ruletaPrincipal/img7.jpg',
+  './static/min/ruletaPrincipal/img8.jpg',
+  './static/min/ruletaPrincipal/img9.jpg',
 ];
 
 class Header extends React.Component {
